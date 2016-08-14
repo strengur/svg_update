@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -28,9 +28,9 @@ a {
   }
   a:hover {
     color: #111;
-  }
+  }*/
 
-header {
+/*header {
   padding-top: 10px;
 }
   header nav {
@@ -43,9 +43,9 @@ header {
   }
   header h1 {
     line-height: 1em;
-  }
+  }*/
 
-main {
+/*main {
   padding-top: 50px;
 }
   main h2 {
@@ -67,11 +67,11 @@ main {
       }
       main li:last-child {
         margin-right: 0;
-      }
+      }*/
 
-footer {
+/*footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
-}
+}*/

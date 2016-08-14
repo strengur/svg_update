@@ -1,0 +1,98 @@
+@keyframes turn {
+  0% {
+      transform: rotate(0) scale(0);
+      opacity: 0;
+  }
+  60% {
+      transform: rotate(375deg) scale(1.1);
+  }
+  80% {
+      transform: rotate(355deg) scale(0.9);
+  }
+  100% {
+      transform: rotate(360deg) scale(1);
+  }
+}
+
+.logo-intro {
+     animation: turn 1.5s .2s ease-out backwards;
+}
+
+@keyframes nav-icons {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.7);
+  }
+  60% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.nav-icon:hover {
+  animation: nav-icons 1s linear backwards;
+}
+
+@keyframes eye-sparkling {
+  100% {
+    stroke-width: 2px;
+    stroke: #dd9;
+  }
+}
+
+.bt-eye-right {
+  animation: eye-sparkling .3s 2.2s ease-in-out;
+}
+
+.bt-eye-left {
+  animation: eye-sparkling .3s 2.9s ease-in-out;
+}
+
+.red-eye-right {
+  animation: eye-sparkling .3s 2.7s ease-in-out;
+}
+
+.red-eye-left {
+  animation: eye-sparkling .3s 2.5s ease-in-out;
+}
+
+.sable-eye-right {
+  animation: eye-sparkling .3s 2.6s ease-in-out;
+}
+
+.sable-eye-left {
+  animation: eye-sparkling .3s 2.1s ease-in-out;
+}
+
+.fawn-eye-right {
+  animation: eye-sparkling .3s 2.3s ease-in-out;
+}
+
+.fawn-eye-left {
+  animation: eye-sparkling .3s 2.8s ease-in-out;
+}
+
+@keyframes stroke-nose {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-nose {
+  100% {
+    fill: #888;
+  }
+}
+
+.noses {
+  stroke: #444;
+  stroke-width: 2px;
+  stroke-dasharray: 293px;
+  stroke-dashoffset: 293px;
+
+  animation: stroke-nose 2.8s linear forwards, fill-nose .5s 2.9s forwards;
+}

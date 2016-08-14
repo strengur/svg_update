@@ -1,0 +1,8 @@
+// Medis queries mixins
+$narrow  : 420px;
+
+@mixin narrow {
+  @media screen and (min-width: $narrow) {
+    @content;
+  }
+}
